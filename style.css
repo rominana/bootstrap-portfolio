@@ -6,7 +6,13 @@ body {
 }
 
 #main {
-  background-image: url("images/background.svg");
+    background-color: #fff;
+    border-bottom-left-radius: 9%;
+    background-image: url(images/header-img1.png);
+    background-repeat: no-repeat;
+    background-size: 100% 90%;
+    background-position:  100% 60px;
+  /* background-image: url("images/background.svg");
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
@@ -16,12 +22,18 @@ body {
   z-index: -11;
   border-radius: 0 0 0 100px;
   top: 0;
-  padding-top: 250px;
+  padding-top: 250px; */
 }
 
 #header {
   position: fixed;
   width: 100%;
+}
+
+
+/* cards */
+.cards{
+  border-radius: 24px !important;
 }
 
 /* details */
